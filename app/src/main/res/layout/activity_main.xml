@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="12dp"
-        android:text="35+56"
+        android:text=""
         android:textAlignment="viewEnd"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/results_tv"
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="12dp"
-        android:text=" =1520"
+        android:text=""
         android:visibility="gone"
         android:textAlignment="viewEnd"
         android:textColor="@color/black"
@@ -44,7 +44,6 @@
         android:id="@+id/line"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-
         />
 
 
@@ -227,7 +226,9 @@
                 style="@style/operatorbutton"
                 android:onClick="onEqualClick"
                 android:id="@+id/button_equal"
+                android:backgroundTint="#800000"
                 android:text="="
+                android:textColor="@color/white"
                 android:textSize="40dp"/>
 
         </LinearLayout>
